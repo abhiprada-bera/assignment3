@@ -1,0 +1,19 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyTorch checkpoints and vocab files
+checkpoint.pt
+vocab.pt
+
+# Wandb logs and metadata
+wandb/
+
+# Local configuration/temporary files
+search_logs.py
+.env
+.env.*
+.ipynb_checkpoints/
+.vscode/
+.idea/
